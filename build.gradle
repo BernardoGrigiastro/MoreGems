@@ -59,6 +59,8 @@ dependencies {
 
 	//Curios API - requires Cardinal Components
 	modImplementation "top.theillusivec4.curios:curios-fabric:${curios_version}"
+	modImplementation "io.github.onyxstudios:Cardinal-Components-API:${cardinal_version}"
+
 	include "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-base:${cardinal_version}"
 	include "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-entity:${cardinal_version}"
 	include "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-world:${cardinal_version}"
